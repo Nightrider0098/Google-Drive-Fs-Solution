@@ -1,0 +1,22 @@
+{
+  "name": "node-server-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha '__tests__/*.test.js' --reporter mochawesome --recursive  --timeout 60000 --exit",
+    "run": "node ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "4.17.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.10.15",
+    "node-serialize": "0.0.4"
+  },
+  "devDependencies": {
+  }
+}
